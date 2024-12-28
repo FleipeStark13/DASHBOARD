@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Sua Retrospectiva Coocerqui | 2024</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <figure id="logo-coocerqui">
+                <img src="assets/images/Coocerqui Supermercado - Principal Horizontal_Since (1).png" alt="Logo Coocerqui Testeira">
+            </figure>
+        </nav>
+    </header>
+    <main>
+        <section class="top-side-logo">
+            
+            <div class="container-top-side-logo">
+                <div class="top-side-welcome">
+                    <div class="container-top-side-welcome">
+                        <p>👋🏻 Seja Bem-Vindo:</p>
+                    </div>
+                    <h1>Felipe Liandro</h1>
+                </div>
+                <div class="top-side-retrospectiva">
+                    <p><em>Sua retrospectiva</em></p>
+                    <div class="top-side-card-2024">
+                        <p>2024</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="total-economizado">
+            <div class="container-total-economizado">
+                <div class="card-top-side">
+                    <p>Total economizado</p>
+                    <p>></p>
+                </div>
+                <h1><i>R$25.245,00</i></h1>
+                <div class="card-descript">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam fugit vel aliquid sint omnis accusamus maxime esse illum ut at.</p>
+                    <p class="card-descript-legal">
+                        Valores apurados em Dezembro 2024
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="chart-section">
+            <div class="container-chart">
+                <div class="chart-block">
+                    <!-- ADICIONAR A ÁREA DO GRÁFICO AQUI DENTRO -->
+                     <div>
+                        <canvas id="myChart"></canvas>
+                     </div>
+                    
+                </div>
+
+                <div class="chart-content">
+                    <div class="container-chart-content">
+                        
+                        <div class="button-container-chart-content">
+                            <p>Altere o modo de visualização:</p>
+                            <div class="button-chart">
+                                <button onclick="changeChart('bar')" id="bar">Barras</button>
+                                <button onclick="changeChart('line')" id="line">Linhas</button>
+                            </div>
+                        </div>
+                        <p class="legal-chart-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam quae distinctio ratione deserunt eius quas perspiciatis dolorem ea incidunt.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="produto-mais-amado">
+            <div class="container-produto-mais-amado">
+                <div class="header-produto-mais-amado">
+                    <p>Produto mais</p>
+                    <p>Amado</p>
+                </div>
+
+                <div class="container-img-produto-mais-amado">
+                    <figure class="figure-produto-mais-amado">
+                        <img src="https://distribuidoracervejada.com/wp-content/uploads/2024/05/919586.jpg" alt="Imagem do produto mais amado">
+                    </figure>
+                    
+                    <div class="primeiro-lugar">
+                        <div class="container-primeiro-lugar">
+                            <p>1 Lugar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comprou-x-vezes">
+                    <p class="title-product">Cerveja Heineken Garrafa 350ml</p>
+                    <div class="container-comprou-x-vezes">
+                        <p>Você comprou esse item: 256 vezes</p>
+                    </div>
+                    <p class="legal-comprou-x-vezes">Você está entre o TOP 20% que mais compra esse produto! Parabéns.</p>
+                </div>
+
+                <div class="button-comprar-novamente">
+                    <button>Comprar Novamente</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="podio-items">
+            <div class="container-podio-items">
+                <div class="segundo-lugar podio-card">
+                    <div class="container-podio-card">
+                        <div class="top-side-podio-card">
+                            <p>Ver mais detalhes</p>
+                            <p> > </p>
+                        </div>
+
+                        <div class="container-figure-podio-card">
+                            <figure class="figure-podio-card">
+                                <img src="https://boa.vtexassets.com/arquivos/ids/527008/Coxinha-da-Asa-kg.jpg?v=638478380868100000" alt="Imagem do produto em pódio">
+                            </figure>
+                        </div>
+
+                        <div class="produto-podio-card-description">
+                            <p class="podio-card-title-product">Coxinha da Asa de Frango Kg</p>
+                            <hr>
+                            <div class="produto-podio-card-description-more">
+                                <div class="flex-podio-card-more">
+                                    <div class="flex-podio-card-more-comprou">
+                                        <p>Você comprou esse item</p>
+                                        <p>254</p>
+                                        <p>vezes</p>
+                                    </div>
+                                    <div class="flex-posicao-card-more">
+                                        <div class="container-flex-posicao-card-more">
+                                            <p>2 Lugar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                <div class="button-comprar-novamente">
+                    <button>Comprar Novamente</button>
+                </div>
+
+                    </div>
+                </div>
+                <div class="terceiro-lugar podio-card">
+                    <div class="container-podio-card">
+                        <div class="top-side-podio-card">
+                            <p>Ver mais detalhes</p>
+                            <p> > </p>
+                        </div>
+
+                        <div class="container-figure-podio-card">
+                            <figure class="figure-podio-card">
+                                <img src="https://piracanjuba-institucional-prd.s3.sa-east-1.amazonaws.com/product_images/image/848x1007px-uht-integral-frontal-esquerda-461.webp" alt="Imagem do produto em pódio">
+                            </figure>
+                        </div>
+
+                        <div class="produto-podio-card-description">
+                            <p class="podio-card-title-product">Leite Integral Piracanjuba 1L</p>
+                            <hr>
+                            <div class="produto-podio-card-description-more">
+                                <div class="flex-podio-card-more">
+                                    <div class="flex-podio-card-more-comprou">
+                                        <p>Você comprou esse item</p>
+                                        <p>254</p>
+                                        <p>vezes</p>
+                                    </div>
+                                    <div class="flex-posicao-card-more">
+                                        <div class="container-flex-posicao-card-more">
+                                            <p>3 Lugar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                <div class="button-comprar-novamente">
+                    <button>Comprar Novamente</button>
+                </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="marca-favorita">
+            <div class="container-marca-favorita marca-card">
+                <div class="marca-favorita-imagem">
+                    <figure class="figure-marca-favorita">
+                        <img src="https://funchal.vtexassets.com/arquivos/ids/204775/foto_1_002.jpg?v=638439987399500000" alt="Imagem da marca favorita">
+                    </figure>
+                </div>
+
+                <div class="marca-favorita-description">
+                    <div class="container-marca-favorita-description">
+                        <div class="label-marca">
+                            <p>Sua marca favorita</p>
+                        </div>
+                        <h1>Nestlé</h1>
+                        <p>Você comrpou cerca de XX produtos da Nestlé na Coocerqui em 2024.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="marca-menos-comprada">
+            <div class="container-marca-menos-comprada marca-card">
+                <div class="marca-menos-comprada-imagem">
+                    <figure class="figure-marca-menos-comprada">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Grupo_arcor_logo.svg/640px-Grupo_arcor_logo.svg.png" alt="Imagem da marca menos Comprada">
+                    </figure>
+                </div>
+
+                <div class="marca-menos-comprada-description">
+                    <div class="container-marca-menos-comprada-description">
+                        <div class="label-marca">
+                            <p>Sua marca menos comprada</p>
+                        </div>
+                        <h1>Arcor</h1>
+                        <p>Você comrpou cerca de XX produtos da Nestlé na Coocerqui em 2024.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-familia-de-produtos">
+            <div class="container-familia-de-produtos">
+                
+                <!-- ÁREA DEDICADA A BIBLIOTECA DE CARROSSEL EM HTML5 -->
+                
+                <div class="slick-carousel">
+                    <div class="carousel-familia-item">
+                        <div class="carousel-familia-item-card"> 
+                            <div class="container-figure-carousel-familia-item">
+                                <figure class="figure-carousel-familia-item">
+                                    <img src="https://www.arcor.com.br/wp-content/uploads/2024/03/ar_24_2514_10_site_arcor_mockups_ovos_de_pascoa_tablete_inspiration_cacau_caramel_macchiato_70_80g_800x497px_v1.png" alt="Imagem de produto da familia mais comprada.">
+                                </figure>
+                            </div>
+                            
+                            <div class="familia-item-carousel-description">
+                                <div class="familia-item-carousel-description-container">
+                                    <div class="label-familia-item">
+                                        <p>Familía do produto</p>
+                                    </div>
+                                    <div class="title-and-desc-familia-item">
+                                        <h1>Chocolate Cacau Caramelo Machianto 80g</h1>
+                                        <p>Descrição longa do produto esse item tem descrição.</p>
+                                    </div>
+                                    <div class="label-more-familia-item">
+                                        <div class="highlight-quant-familia-item">
+                                            <p>200</p>
+                                        </div>
+                                        <p>itens comprados.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-familia-item">
+                        <div class="carousel-familia-item-card">
+                            
+                            <div class="container-figure-carousel-familia-item">
+                                <figure class="figure-carousel-familia-item">
+                                    <img src="https://avenidab2c.vtexassets.com/unsafe/fit-in/720x720/center/middle/https%3A%2F%2Favenidab2c.vtexassets.com%2Farquivos%2Fids%2F340290%2FCerveja-Zero-Alcool-Heineken-Premium-Puro-Malte-Lager-330ml.jpg%3Fv%3D638624463992400000" alt="Imagem de produto da familia mais comprada.">
+                                </figure>
+                            </div>
+                            
+                            <div class="familia-item-carousel-description">
+                                <div class="familia-item-carousel-description-container">
+                                    <div class="label-familia-item">
+                                        <p>Familía do produto</p>
+                                    </div>
+                                    <div class="title-and-desc-familia-item">
+                                        <h1>Heineken Zero 350ml Garrafa</h1>
+                                        <p>Descrição longa do produto esse item tem descrição.</p>
+                                    </div>
+                                    <div class="label-more-familia-item">
+                                        <div class="highlight-quant-familia-item">
+                                            <p>20</p>
+                                        </div>
+                                        <p>itens comprados.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-familia-item">
+                        <div class="carousel-familia-item-card">
+                            
+                            <div class="container-figure-carousel-familia-item">
+                                <figure class="figure-carousel-familia-item">
+                                    <img src="https://www.davo.com.br/ccstore/v1/images/?source=/file/v7290328888068527/products/7896006711155%20.png&height=940&width=940" alt="Imagem de produto da familia mais comprada.">
+                                </figure>
+                            </div>
+                            
+                            <div class="familia-item-carousel-description">
+                                <div class="familia-item-carousel-description-container">
+                                    <div class="label-familia-item">
+                                        <p>Familía do produto</p>
+                                    </div>
+                                    <div class="title-and-desc-familia-item">
+                                        <h1>Arroz Branco Camil 5Kg Tipo 1</h1>
+                                        <p>Descrição longa do produto esse item tem descrição.</p>
+                                    </div>
+                                    <div class="label-more-familia-item">
+                                        <div class="highlight-quant-familia-item">
+                                            <p>10</p>
+                                        </div>
+                                        <p>itens comprados.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="quantas-vezes-veio-ao-mercado">
+            <div class="container-veio-ao-mercado">
+
+                <div class="top-side-veio-ao-mercado">
+                    <div class="container-top-side-veio-ao-mercado">
+                        <p>Quantas vezes veio ao mercado</p>
+                    </div>
+                </div>
+
+                <div class="flex-veio-ao-mercado-descript">
+                    <div class="flex-quantidade-veio-ao-mercado">
+                        <h1><i>169</i></h1>
+                    </div>
+                    <div class="flex-descript-veio-ao-mercado">
+                        <p>Você veio 169 vezes em nossa Coocerqui. No ano de 2024.</p>
+                        <div class="flex-loja-favorita-veio-ao-mercado">
+                            <p>Loja 4:</p>
+                            <p>Coocerqui João Pilon</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container-footer">
+                
+                <div class="figure-container-footer">
+                    <figure class="figure-footer">
+                        <img src="assets/images/Negativo - Coocerqui Supermercado - Horizontal.png" alt="Logo do Rodapé">
+                    </figure>
+                </div>
+                
+                <hr>
+
+                <div class="footer-legal-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, natus deserunt. Vero nam voluptatibus nisi tempore harum consequatur non voluptatem laudantium magnam ipsam aut, quas in possimus delectus? Numquam, sit.</p>
+                </div>
+                
+                <div class="footer-redes-sociais">
+                    <ul class="footer-redes-sociais-ultimate">
+                        <li>
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">TikTok</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-about-page">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta amet excepturi, inventore cumque deleniti voluptate.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slick-carousel').slick({
+            infinite: true,          // Rolagem infinita
+            slidesToShow: 1,         // Número de slides visíveis por vez
+            slidesToScroll: 1,       // Quantos slides mover ao rolar
+            autoplay: false,          // Ativa o auto-play    // Intervalo entre as transições (em ms)
+            arrows: false,
+            dots: true,            // Exibe as setas de navegação
+        });
+        });
+    </script>
+
+    <script src="assets/scripts/chart.js" type="text/javascript"></script>
+
+</body>
+</html>
