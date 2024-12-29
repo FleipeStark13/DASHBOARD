@@ -1,0 +1,277 @@
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 780px;
+    }
+
+    .top-side-logo {
+        margin-top: 2em;
+    }
+
+    #logo-coocerqui {
+        margin: 20px auto;
+    }
+
+    .top-side-welcome h1 {
+        line-height: normal;
+        text-align: center;
+        font-size: 80px;
+        margin: 0;
+        margin-bottom: 1.5em;
+    }
+    .container-top-side-welcome p {
+        margin: 0 auto;
+    }
+
+    /* PRODUTO MAIS AMADO */
+    .container-produto-mais-amado {
+        display: flex;
+        align-items: end;
+    }
+    .comprou-x-vezes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        text-align: left !important;
+    }
+    .comprou-x-vezes * {
+        width: 100%;
+    }
+    .comprou-x-vezes .title-product {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+    .container-comprou-x-vezes {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+    }
+    .container-comprou-x-vezes p { background-color: var(--amarelo); width: fit-content; padding: 5px; border-radius: 5px;}
+    .container-comprou .button-comprar-novamente {
+        align-items: start;
+        justify-content: left;
+    }
+    
+    .podio-card-container-item {
+        display: flex;
+        gap: 1em;
+    }
+    .container-figure-podio-card {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .produto-podio-card-description {
+        text-transform: left;
+    }
+    .podio-card-title-product { text-align: left; margin: 0; font-size: 12px;}
+    .podio-card {
+        margin: 5px;
+    }
+    .flex-podio-card-more { align-items:  start; justify-content: center;}
+    .flex-posicao-card-more { position: absolute; left: 10px; bottom: 50px;}
+
+    .marcas { display: flex; width: 100%; align-items: center; justify-content: center; box-sizing: border-box;}
+    .marca-menos-comprada, .marca-favorita {
+        width: 100%;
+    }
+
+    .container-marca-menos-comprada-description h1, .container-marca-favorita-description h1 {
+        font-size: 30px;
+        line-height: 0;
+        margin: 20px 0;
+    }
+    .marca-menos-comprada p, .marca-favorita p{
+        line-height: normal;
+        margin: 10px 0;
+    }
+    .marca-menos-comprada figure, .marca-favorita figure {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+    }
+    .marca-menos-comprada img, .marca-favorita img {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-footer {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-familia-item-card {
+        align-items: end;
+    }
+
+    .container-figure-carousel-familia-item {
+        width: 100%;
+    }
+
+    .carousel-familia-item-card figure {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+    }
+    .carousel-familia-item-card img {
+        width: 100%;
+        margin: 0;
+    }
+    .familia-item-carousel-description-container { width:  100%; flex: 1; font-size: 20px;}
+
+    .flex-veio-ao-mercado-descript h1{
+        font-size: 150px;
+        margin: 20px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .container-podio-items {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .podio-card {
+        width: 320px;
+    }
+
+    .flex-podio-card-more {
+        align-items: end;
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    .marca-card{
+        gap: 2px;
+        padding: 5px;
+    }
+    .marca-card figure{
+        width: 100px;
+        height: 100px;
+    }
+    .marca-card .label-marca p {
+        font-size: 10px;
+    }
+
+    .carousel-familia-item-card h1{
+        font-size: 20px;
+    }
+
+    .carousel-familia-item-card figure{
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-familia-item-card img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    /* Header */
+    #logo-coocerqui { width:  80%;}
+    /* FIM HEADER */
+    
+    /* INICIO TOP-SIDE-LOGO */
+    
+    .container-top-side-welcome p {
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .top-side-welcome h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .top-side-retrospectiva em { font-size: 15px; }
+    .top-side-card-2024 { font-size: 12px; padding:  5px;}
+    /* FIM TOP-SIDE-LOGO */
+    
+
+    /* INICIO TOTAL ECONOMIZADO */
+    .container-total-economizado h1 { font-size: 30px;}
+    .total-economizado p { font-size:  8px;}
+
+    /* FIM TOTAL ECONOMIZADO */
+
+
+    /* INICIO CHART */
+    .button-chart button{ font-size:  10px; padding: 5px;}
+    /* FIM CHART */
+
+    /* Primeiro Lugar */
+    .container-img-produto-mais-amado figure{
+        width: 100%;
+        height: 100%;
+    }
+    .primeiro-lugar {
+        font-size: 20px;
+        padding: 1px 20px;
+        border-radius: 5px;
+        bottom: 0;
+    }
+    .primeiro-lugar p{
+        margin: 0;
+        line-height: normal;
+    }
+    /* Fim Primeiro Lugar */
+    /* Podio Card 2 ITENS */
+    .podio-card { width: 90%; }
+    .container-figure-podio-card { width:  100%; height:  100%;}
+    /* Fim Podio Card 2 ITENS */
+
+    /* MARCA FAVORITA */
+    .marca-card, .marca-menos-comprada .marca-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .marca-menos-comprada .container-marca-menos-comprada-description {
+        align-items: start;
+        text-align: left;
+    }
+    .marca-card figure {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    /* FIM MARCA FAVORITA */
+
+    /* INICIO CARROSSEL */
+    .carousel-familia-item-card {
+        flex-direction: column;
+    }
+    .carousel-familia-item-card figure {
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-familia-item-card img {
+        width: 100%;
+    }
+    /* FIM CARROSSEL */
+
+    /* INICIO VEIO AO MERCADO */
+    .flex-veio-ao-mercado-descript { flex-direction:  column;}
+    .flex-quantidade-veio-ao-mercado h1 { margin-top: 30px;}
+    /* FIM VEIO AO MERCADO */
+
+    /* INICIO FOOTER */
+    .footer-redes-sociais-ultimate { flex-direction:  column;}
+    .container-footer figure { width: 100%;}
+    /* FIM FOOTER */
+}

@@ -1,0 +1,323 @@
+/* INIT CONFIGS */
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+body, html {
+
+    padding: 0;
+    margin: 0;
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header {
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+header nav {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav figure {
+    width: 200px;
+    margin: 0;
+}
+header nav figure img {
+    width: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --verde-1: #49D06B;
+    --verde-2: #13A338;
+    --verde-3: #3D8C51;
+    --amarelo: #FFD900;
+    --amarelo-2: #766400;
+    --lima: #B4EE16;
+    --cinza-1: #282828;
+    --cinza-2: #585858;
+
+    --border-radius-cards: 10px;
+
+}
+/* END CONFIGS */
+
+
+/* ARROW CONFIG */
+
+.arrow-back {
+    width: 30px;
+    height: 30px;
+    background-color: var(--verde-2);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    font-size: 20px;
+    transition: 150ms linear;
+    color: var(--verde-1);
+}
+
+
+.container-arrow-back {
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--verde-1);
+    border-radius: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-back:active, .arrow-back:hover {
+    background-color: var(--verde-3);
+    transform: scale(1.2);
+    color: white;
+}
+
+/* END ARROW CONFIG */
+
+/* CONFIG MAIN */
+.det {
+    width: 100%;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* END CONFIG MAIN */
+
+/* START TOP SIDE */
+
+.det .top-side {
+    width: 100%;
+    position: relative;
+}
+.det .label-top-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 900;
+}
+.det .label-top-side p{
+    margin: 0;
+}
+.det .label-top-side-year {
+    padding: 10px;
+    background-color: var(--verde-2);
+    border-radius: 5px;
+    font-weight: 900;
+    color: var(--lima);
+
+}
+
+/*  END TOP SIDE */
+
+/* START FRAME IMG */
+
+.det .frame-image {
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius-cards);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.det .frame-image figure {
+    margin: 0 auto;
+    max-width: 500px;
+}
+.det .frame-image img{
+    width: 100%;
+}
+
+.container-description {
+    width: 100%;
+}
+.description-flex {
+    display: flex;
+    position: relative;
+    align-items: start;
+    justify-content: space-between;
+}
+.description-title{
+    width: 100%;
+    font-size: 35px;
+    opacity: .5;
+}
+.description-total-de-compras {
+    width: 80%;
+    padding: 0 40px;
+
+    position: relative;
+
+
+}
+.description-h1-value{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--verde-2);
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+
+.description-compras {
+    position: absolute;
+    text-align: center;
+    
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--verde-2);
+    top: 35%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+
+.button-comprar-novamente {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-comprar-novamente button{
+    width: 100%;
+    border: none;
+    background-color: var(--verde-2);
+    color: white;
+    font-size: 35px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.6);
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+/* END FRAME IMG */
+
+/* BIGGEST PURCHASE */
+
+.biggest-purchase {
+    width: 100%;
+    position: relative;
+}
+.container-biggest-purchase {
+    width: 100%;
+    position: relative;
+    background-color: var(--lima);
+    padding: 10px;
+    border-radius: 5px;
+    border: .5px solid var(--verde-2);
+    box-shadow: 0 5px;
+    color: var(--verde-3);
+    font-weight: 500;
+    font-size: 20px;
+}
+.top-side-biggest-purchase {
+    font-size: 30px;
+    font-weight: 900;
+}
+.top-side-biggest-purchase p {
+    margin-top: 10px;
+}
+.top-side-biggest-purchase span {
+    background-color: var(--verde-2);
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+}
+/* END BIGGEST PURCHASE */
+
+
+/* START PURCHASE BIGGEST QUANT */
+
+.purchase-biggest-quant {
+    position: relative;
+    width: 100%;
+    margin-top: 1em;
+}
+.container-purchase-biggest-quant{
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--border-radius-cards);
+    border: 1px solid #ccc;
+    color: var(--verde-2);
+}
+.top-side-purchase {
+    font-size: 30px;
+    font-weight: 900;
+}
+.description-biggest-quant {
+    font-size: 25px;
+}
+
+.purchase-biggest-quant {
+    margin-bottom: 2em;
+}
+
+/* END PURCHASE BIGGEST QUANT */
+
+
+/*      INICIO FOOTER         */
+
+.footer{
+    width: 100%;
+    background-color: var(--verde-2);
+    position: absolute;
+    left: 0;
+}
+.container-footer{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-redes-sociais-ultimate {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.footer-redes-sociais-ultimate a {
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: var(--verde-1);
+}
+.container-footer figure{
+    width: 200px;
+    margin: 0 auto;
+}
+.container-footer img{
+    width: 100%;
+}
+
+/*      FIM FOOTER         */

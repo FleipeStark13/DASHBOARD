@@ -47,8 +47,8 @@
 
         <section class="total-economizado">
             <div class="container-total-economizado">
-                <div class="card-top-side">
-                    <p>Total economizado</p>
+                <div onclick="window.location.href = './pages/totalEconomizado/totalEconomizado.html'" class="card-top-side clicklabl">
+                    <p >Total economizado</p>
                     <p>></p>
                 </div>
                 <h1><i>R$25.245,00</i></h1>
@@ -90,34 +90,38 @@
 
         <section class="produto-mais-amado">
             <div class="container-produto-mais-amado">
-                <div class="header-produto-mais-amado">
-                    <p>Produto mais</p>
-                    <p>Amado</p>
-                </div>
+                <div>
+                    <div class="header-produto-mais-amado">
+                        <p>Produto mais</p>
+                        <p>Amado</p>
+                    </div>
 
-                <div class="container-img-produto-mais-amado">
-                    <figure class="figure-produto-mais-amado">
-                        <img src="https://distribuidoracervejada.com/wp-content/uploads/2024/05/919586.jpg" alt="Imagem do produto mais amado">
-                    </figure>
-                    
-                    <div class="primeiro-lugar">
-                        <div class="container-primeiro-lugar">
-                            <p>1 Lugar</p>
+                    <div class="container-img-produto-mais-amado">
+                        <figure class="figure-produto-mais-amado">
+                            <img src="https://distribuidoracervejada.com/wp-content/uploads/2024/05/919586.jpg" alt="Imagem do produto mais amado">
+                        </figure>
+                        
+                        <div class="primeiro-lugar">
+                            <div class="container-primeiro-lugar">
+                                <p>1 Lugar</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="comprou-x-vezes">
-                    <p class="title-product">Cerveja Heineken Garrafa 350ml</p>
-                    <div class="container-comprou-x-vezes">
-                        <p>Você comprou esse item: 256 vezes</p>
+                <div class="container-comprou">
+                    <div class="comprou-x-vezes">
+                        <p class="title-product">Cerveja Heineken Garrafa 350ml</p>
+                        <div class="container-comprou-x-vezes">
+                            <p>Você comprou esse item: 256 vezes</p>
+                        </div>
+                        <p class="legal-comprou-x-vezes">Você está entre o TOP 20% que mais compra esse produto! Parabéns.</p>
                     </div>
-                    <p class="legal-comprou-x-vezes">Você está entre o TOP 20% que mais compra esse produto! Parabéns.</p>
+    
+                    <div class="button-comprar-novamente">
+                        <button>Comprar Novamente</button>
+                    </div>
                 </div>
 
-                <div class="button-comprar-novamente">
-                    <button>Comprar Novamente</button>
-                </div>
             </div>
         </section>
 
@@ -125,30 +129,31 @@
             <div class="container-podio-items">
                 <div class="segundo-lugar podio-card">
                     <div class="container-podio-card">
-                        <div class="top-side-podio-card">
+                        <div class="top-side-podio-card" onclick="window.location.href='./pages/maisDetalhes/segundoLugar/maisDetalhes.html'">
                             <p>Ver mais detalhes</p>
                             <p> > </p>
                         </div>
-
-                        <div class="container-figure-podio-card">
-                            <figure class="figure-podio-card">
-                                <img src="https://boa.vtexassets.com/arquivos/ids/527008/Coxinha-da-Asa-kg.jpg?v=638478380868100000" alt="Imagem do produto em pódio">
-                            </figure>
-                        </div>
-
-                        <div class="produto-podio-card-description">
-                            <p class="podio-card-title-product">Coxinha da Asa de Frango Kg</p>
-                            <hr>
-                            <div class="produto-podio-card-description-more">
-                                <div class="flex-podio-card-more">
-                                    <div class="flex-podio-card-more-comprou">
-                                        <p>Você comprou esse item</p>
-                                        <p>254</p>
-                                        <p>vezes</p>
-                                    </div>
-                                    <div class="flex-posicao-card-more">
-                                        <div class="container-flex-posicao-card-more">
-                                            <p>2 Lugar</p>
+                        <div class="podio-card-container-item">
+                            <div class="container-figure-podio-card">
+                                <figure class="figure-podio-card">
+                                    <img src="https://boa.vtexassets.com/arquivos/ids/527008/Coxinha-da-Asa-kg.jpg?v=638478380868100000" alt="Imagem do produto em pódio">
+                                </figure>
+                            </div>
+    
+                            <div class="produto-podio-card-description">
+                                <p class="podio-card-title-product">Coxinha da Asa de Frango Kg</p>
+                                <hr>
+                                <div class="produto-podio-card-description-more">
+                                    <div class="flex-podio-card-more">
+                                        <div class="flex-podio-card-more-comprou">
+                                            <p>Você comprou esse item</p>
+                                            <p>254</p>
+                                            <p>vezes</p>
+                                        </div>
+                                        <div class="flex-posicao-card-more">
+                                            <div class="container-flex-posicao-card-more">
+                                                <p>2 Lugar</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -163,30 +168,32 @@
                 </div>
                 <div class="terceiro-lugar podio-card">
                     <div class="container-podio-card">
-                        <div class="top-side-podio-card">
+                        <div class="top-side-podio-card" onclick="window.location.href='./pages/maisDetalhes/terceiroLugar/maisDetalhes.html'">
                             <p>Ver mais detalhes</p>
                             <p> > </p>
                         </div>
 
-                        <div class="container-figure-podio-card">
-                            <figure class="figure-podio-card">
-                                <img src="https://piracanjuba-institucional-prd.s3.sa-east-1.amazonaws.com/product_images/image/848x1007px-uht-integral-frontal-esquerda-461.webp" alt="Imagem do produto em pódio">
-                            </figure>
-                        </div>
-
-                        <div class="produto-podio-card-description">
-                            <p class="podio-card-title-product">Leite Integral Piracanjuba 1L</p>
-                            <hr>
-                            <div class="produto-podio-card-description-more">
-                                <div class="flex-podio-card-more">
-                                    <div class="flex-podio-card-more-comprou">
-                                        <p>Você comprou esse item</p>
-                                        <p>254</p>
-                                        <p>vezes</p>
-                                    </div>
-                                    <div class="flex-posicao-card-more">
-                                        <div class="container-flex-posicao-card-more">
-                                            <p>3 Lugar</p>
+                        <div class="podio-card-container-item">
+                            <div class="container-figure-podio-card">
+                                <figure class="figure-podio-card">
+                                    <img src="https://piracanjuba-institucional-prd.s3.sa-east-1.amazonaws.com/product_images/image/848x1007px-uht-integral-frontal-esquerda-461.webp" alt="Imagem do produto em pódio">
+                                </figure>
+                            </div>
+    
+                            <div class="produto-podio-card-description">
+                                <p class="podio-card-title-product">Leite Integral Piracanjuba 1L</p>
+                                <hr>
+                                <div class="produto-podio-card-description-more">
+                                    <div class="flex-podio-card-more">
+                                        <div class="flex-podio-card-more-comprou">
+                                            <p>Você comprou esse item</p>
+                                            <p>254</p>
+                                            <p>vezes</p>
+                                        </div>
+                                        <div class="flex-posicao-card-more">
+                                            <div class="container-flex-posicao-card-more">
+                                                <p>3 Lugar</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -202,45 +209,47 @@
             </div>
         </section>
 
-        <section class="marca-favorita">
-            <div class="container-marca-favorita marca-card">
-                <div class="marca-favorita-imagem">
-                    <figure class="figure-marca-favorita">
-                        <img src="https://funchal.vtexassets.com/arquivos/ids/204775/foto_1_002.jpg?v=638439987399500000" alt="Imagem da marca favorita">
-                    </figure>
-                </div>
-
-                <div class="marca-favorita-description">
-                    <div class="container-marca-favorita-description">
-                        <div class="label-marca">
-                            <p>Sua marca favorita</p>
+        <div class="marcas">
+            <section class="marca-favorita">
+                <div class="container-marca-favorita marca-card">
+                    <div class="marca-favorita-imagem">
+                        <figure class="figure-marca-favorita">
+                            <img src="https://funchal.vtexassets.com/arquivos/ids/204775/foto_1_002.jpg?v=638439987399500000" alt="Imagem da marca favorita">
+                        </figure>
+                    </div>
+    
+                    <div class="marca-favorita-description">
+                        <div class="container-marca-favorita-description">
+                            <div class="label-marca">
+                                <p>Sua marca favorita</p>
+                            </div>
+                            <h1>Nestlé</h1>
+                            <p>Você comrpou cerca de XX produtos da Nestlé na Coocerqui em 2024.</p>
                         </div>
-                        <h1>Nestlé</h1>
-                        <p>Você comrpou cerca de XX produtos da Nestlé na Coocerqui em 2024.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="marca-menos-comprada">
-            <div class="container-marca-menos-comprada marca-card">
-                <div class="marca-menos-comprada-imagem">
-                    <figure class="figure-marca-menos-comprada">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Grupo_arcor_logo.svg/640px-Grupo_arcor_logo.svg.png" alt="Imagem da marca menos Comprada">
-                    </figure>
-                </div>
-
-                <div class="marca-menos-comprada-description">
-                    <div class="container-marca-menos-comprada-description">
-                        <div class="label-marca">
-                            <p>Sua marca menos comprada</p>
+            </section>
+    
+            <section class="marca-menos-comprada">
+                <div class="container-marca-menos-comprada marca-card">
+                    <div class="marca-menos-comprada-imagem">
+                        <figure class="figure-marca-menos-comprada">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Grupo_arcor_logo.svg/640px-Grupo_arcor_logo.svg.png" alt="Imagem da marca menos Comprada">
+                        </figure>
+                    </div>
+    
+                    <div class="marca-menos-comprada-description">
+                        <div class="container-marca-menos-comprada-description">
+                            <div class="label-marca">
+                                <p>Sua marca menos comprada</p>
+                            </div>
+                            <h1>Arcor</h1>
+                            <p>Você comrpou cerca de XX produtos da Nestlé na Coocerqui em 2024.</p>
                         </div>
-                        <h1>Arcor</h1>
-                        <p>Você comrpou cerca de XX produtos da Nestlé na Coocerqui em 2024.</p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <section class="carousel-familia-de-produtos">
             <div class="container-familia-de-produtos">

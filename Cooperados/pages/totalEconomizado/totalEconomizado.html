@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Economizado > 2024</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+<body id="bodytef">
+    <main class="te">
+        <figure class="tef" id="tef">
+            <img src="../../assets/images/Negativo - Coocerqui Supermercado - Horizontal.png" alt="">
+        </figure>
+
+        <header>
+            <nav>
+                <div onclick="window.location.href='../../index.html'" class="arrow-back">
+                    <!-- INSERT ARROW BACK -->
+                     <div class="container-arrow-back">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                     </div>
+                </div>
+                <figure class="logo-header">
+                    <img src="../../assets/images/Coocerqui Supermercado - Principal Horizontal_Since (1).png" alt="">
+                </figure>
+            </nav>
+        </header>
+
+        <section>
+            <div class="content-value">
+                <div class="container-content-value">
+                    <div class="label-top-side">
+                        <div class="label-top-side-phrase">
+                            <p><i>Total Economizado</i></p>
+                        </div>
+                        <div class="label-top-side-year">
+                            <p>2024</p>
+                        </div>
+                    </div>
+    
+                    <div class="value-economizado">
+                        <h1>R$25.245.00</h1>
+                    </div>
+    
+                    <div class="value-economizado-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptatibus corporis aliquam, repudiandae esse quaerat quis quisquam! Veritatis, incidunt praesentium?</p>
+                        <p class="legal-descript-value-economizado"><i>Valores apurados em Dezembro de 2024</i></p>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+
+        <section class="chart-section">
+            <div class="container-chart">
+                <div class="chart-block">
+                    <!-- ADICIONAR A ÁREA DO GRÁFICO AQUI DENTRO -->
+                     <div>
+                        <canvas id="myChart"></canvas>
+                     </div>
+                    
+                </div>
+
+                <div class="chart-content">
+                    <div class="container-chart-content">
+                        
+                        <div class="button-container-chart-content">
+                            <p>Altere o modo de visualização:</p>
+                            <div class="button-chart">
+                                <button onclick="changeChart('bar')" id="bar">Barras</button>
+                                <button onclick="changeChart('line')" id="line">Linhas</button>
+                            </div>
+                        </div>
+                        <p class="legal-chart-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquam quae distinctio ratione deserunt eius quas perspiciatis dolorem ea incidunt.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container-footer">
+                
+                <div class="figure-container-footer">
+                    <figure class="figure-footer">
+                        <img src="../../assets/images/Negativo - Coocerqui Supermercado - Horizontal.png" alt="Logo do Rodapé">
+                    </figure>
+                </div>
+                
+                <hr>
+
+                <div class="footer-legal-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, natus deserunt. Vero nam voluptatibus nisi tempore harum consequatur non voluptatem laudantium magnam ipsam aut, quas in possimus delectus? Numquam, sit.</p>
+                </div>
+                
+                <div class="footer-redes-sociais">
+                    <ul class="footer-redes-sociais-ultimate">
+                        <li>
+                            <a href="#">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#">TikTok</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-about-page">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta amet excepturi, inventore cumque deleniti voluptate.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <script src="./chart.js" type="text/javascript"></script>
+
+    <!-- <script src="../../assets/scripts/loadPage.js" type="text/javascript"></script> -->
+</body>
+</html>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
+    user-select: none;
 }
 
 a {
@@ -362,6 +363,7 @@ main {
     border-radius: var(--border-radius-cards);
 }
 .container-podio-items {
+    padding: 10px;
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -389,12 +391,21 @@ main {
     align-items: center;
     justify-content: space-between;
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 3px;
+    transition: 200ms linear;
+
 }
+
+.top-side-podio-card:hover {
+    background-color: var(--verde-1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .top-side-podio-card p{
     margin: 0;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .container-figure-podio-card{
@@ -585,19 +596,24 @@ main {
 }
 .carousel-familia-item-card {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 1em;
 }
 .carousel-familia-item-card figure{
     width: 200px;
+    display: flex;
+    align-items: center;
     height: 200px;
     border-radius: 10px;
     border: 1px solid #ccc;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #ccc;
+}
+.carousel-familia-item-card img{
+    width: 100%;
 }
 
 .label-familia-item{
@@ -761,51 +777,13 @@ main {
 }
 
 /*      FIM DA MAIN        */
-
-
-@media screen and (max-width: 450px) {
-    .container-podio-items {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .podio-card {
-        width: 320px;
-    }
-
-    .flex-podio-card-more {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .marca-card{
-        gap: 2px;
-        padding: 5px;
-    }
-    .marca-card figure{
-        width: 100px;
-        height: 100px;
-    }
-    .marca-card .label-marca p {
-        font-size: 10px;
-    }
-
-    .carousel-familia-item-card h1{
-        font-size: 20px;
-    }
-
-    .carousel-familia-item-card figure{
-        width: 100px;
-        height: 100px;
-        background-color: transparent;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .carousel-familia-item-card img{
-        width: 200%;
-    }
+.clicklabl {
+    transition: 150ms linear;
+}
+.clicklabl:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 20px;
 
 }

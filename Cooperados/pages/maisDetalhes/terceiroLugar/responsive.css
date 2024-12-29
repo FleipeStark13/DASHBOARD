@@ -1,0 +1,54 @@
+/* @media screen and (min-width: 1200px) {
+    
+} */
+
+@media screen and (min-width: 768px) {
+ .flex-768 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1em;
+    
+    padding: 10px;
+
+}   
+
+ .purchase-biggest-quant, .biggest-purchase {
+    margin: 0;
+ }
+
+ .top-side-biggest-purchase span {
+    margin: 0;
+ }
+
+ .top-side-purchase p {
+    margin: 0;
+ }
+
+ header nav {
+    width: 50%;
+    margin: 0 auto;
+ }
+
+
+}
+
+@media screen and (max-width: 520px) {
+   .description-flex {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin-bottom: 1em;
+   }
+   .description-h1-value {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .top-side-biggest-purchase span {
+      margin: 0;
+   }
+   .footer-redes-sociais ul {
+      flex-direction: column;
+   }  
+}
